@@ -1,0 +1,146 @@
+
+.PageTwo{
+    height:75vh;
+    width: 36vw;
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    background-color: white;
+    border-radius: 10px;
+}
+/* .wrapper{
+    height: 75%;
+    width:60%;
+  
+} */
+
+.Right{
+    height: 70vh;
+    width: 36vw;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 24, 87);
+}
+.form{
+    height: 100%;
+    width: 100%;
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.personalInfoDiv{
+    width: 80%;
+    height:10%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin-top: 5vh;
+}
+.pTop{
+    font-size:1.5rem;
+    font-weight: bold;
+    display: flex;
+    /* flex-flow:; */
+   
+}
+.pBottom{
+margin-left: -9vw;
+}
+/* .inputDiv{
+
+} */
+.inputDiv{
+    height:45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+.inputWrapper{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    border: 1px solid grey;
+}
+.inputs{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.inputWrapper FontAwesomeIcon{
+    font-size: 2rem;
+}
+.dd{
+    font-weight: bold;
+}
+.inputs::placeholder{
+    font-size: 1.2rem;
+}
+.label{
+    height: 35%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price{
+font-size: 1.2rem;
+font-weight: bold;
+color: rgb(12, 12, 93);
+}
+.buttonDiv{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons{
+    height:6vh;
+    width: 20vh;
+    background-color: rgb(12, 12, 125);
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 5vh;
+
+    justify-content: center;
+    align-items: center;
+    margin-right: 3.2vw;
+}
+.buttons:hover{
+    background-color: rgb(20, 20, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
