@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/Home.module.css"
 import PageTwo from "./PageTwo";
 import PageThree from "./PageThree";
+import PageOne from "./PageOne";
+// import Page from "./PageTwo";
+import PageFour from "./PageFour";
 
 export default function Home(){
+
+    const [count,setCount]=useState("");
+    
 
    const number1="one";
    const number2="two";
@@ -39,7 +45,7 @@ export default function Home(){
 </div>
                         
 {/* =================================================================================================================================================== */}
-                       <PageThree/>
+                       
 
                         </div>
 

@@ -1,3 +1,14 @@
+
+
+
+import React from "react";
+import styles from "../styles/PageThree.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGamepad, faDiceFive, faCrown } from "@fortawesome/free-solid-svg-icons";
+
+export default function PageOne() {
+  return (
+    <div className={styles.PageOne}>
 <div className={styles.Right}>
 <form className={styles.form}>
         <div className={styles.personalInfoDiv}>
@@ -25,3 +36,6 @@
 </form>
 
 </div>
+    </div>
+  );
+}
