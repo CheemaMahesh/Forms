@@ -3,12 +3,20 @@ import React from "react";
 import styles from "../styles/Pagetwo.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGamepad ,faDiceFive,faCrown} from "@fortawesome/free-solid-svg-icons";
+import { useValue } from "../../contextPai";
 
 export default function PageTwo(){
+    const {page,setPage}=useValue();
+
+    const handleF=(e)=>{
+        e.preventDefault();
+        setPage(3);
+    }
+
     return(
         <div className={styles.PageTwo}>
                      <div className={styles.Right}>
-                                    <form className={styles.form}>
+                                    <form className={styles.form} onSubmit={handleF}>
                                             <div className={styles.personalInfoDiv}>
                                                 <div className={styles.pTop}>Select your plan</div>
                                                 <div className={styles.pBottom}>You hav option of monthly or yearly billing.</div>
@@ -44,7 +52,7 @@ export default function PageTwo(){
                                                 </div>
                                             </div>
                                             <div className={styles.buttonDiv}>
-                                                                    <button className={styles.buttons}> Next Step</button>
+                                                                    <button className={styles.buttons} > Next Step</button>
                                             </div>
                                     </form>
                             

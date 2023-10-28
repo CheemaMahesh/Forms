@@ -9,15 +9,15 @@ export default function PageFour() {
       <div className={styles.Right}>
         <form className={styles.form}>
           <div className={styles.personalInfoDiv}>
-            <div className={styles.pTop}>Select your plan</div>
+            <div className={styles.pTop}>Finishing Up</div>
             <div className={styles.pBottom}>
-              You have the option of monthly or yearly billing.
+              Double check evrything before Conforming
             </div>
           </div>
           <div className={styles.inputDiv}>
             <form>
               <label className={styles.labesls}>
-                <input type="checkbox" /> 
+                <input type="checkbox" /> Option 1
                 <div className={styles.labelwrap}>
                       
                 </div>
@@ -33,7 +33,7 @@ export default function PageFour() {
             </form>
           </div>
           <div className={styles.buttonDiv}>
-            <button className={styles.buttons}>Next Step</button>
+            <button className={styles.buttons}>Finish</button>
           </div>
         </form>
       </div>

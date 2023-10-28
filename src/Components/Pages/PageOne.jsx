@@ -1,16 +1,22 @@
 
-
-
 import React from "react";
-import styles from "../styles/PageThree.module.css";
+import styles from "../styles/PageOne.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGamepad, faDiceFive, faCrown } from "@fortawesome/free-solid-svg-icons";
+import { useValue } from "../../contextPai";
 
 export default function PageOne() {
+  const {page,setPage}=useValue();
+
+  const handleF=(e)=>{
+      e.preventDefault();
+      setPage(2);
+  }
+
   return (
     <div className={styles.PageOne}>
 <div className={styles.Right}>
-<form className={styles.form}>
+<form className={styles.form} onSubmit={handleF}>
         <div className={styles.personalInfoDiv}>
             <div className={styles.pTop}>Personal Info</div>
             <div className={styles.pBottom}>Please provide your name, email address, and phone number.</div>
@@ -31,7 +37,7 @@ export default function PageOne() {
             </div>
         </div>
         <div className={styles.buttonDiv}>
-                                <button className={styles.buttons}> Next Step</button>
+                                <button className={styles.buttons} > Next Step</button>
         </div>
 </form>
 

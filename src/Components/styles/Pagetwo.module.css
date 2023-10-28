@@ -2,21 +2,15 @@
 .PageTwo{
     height:75vh;
     width: 36vw;
-    background-color: red;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* justify-content: space-between; */
     background-color: white;
     border-radius: 10px;
 }
-/* .wrapper{
-    height: 75%;
-    width:60%;
-  
-} */
+
 
 .Right{
     height: 70vh;
